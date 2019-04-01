@@ -27,6 +27,7 @@ There are several URL log files available openly on the Internet. This log files
 ```
 The following commands can be used to download an example dataset.
 ```
+mkdir Data
 cd Data/
 wget http://www.almhuette-raith.at/apache-log/access.log
 ```
