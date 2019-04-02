@@ -55,7 +55,7 @@ Also, there are two folders `Logs` and `Data` which contains dataset (log files 
 
 #### MODULES
 
-1. DATA PROCESSING : It contains class `DataPreprocessing` which defines methods used for the processing of the data. The individual URL is read from the dataset and a query string identified by leading character ***'?'*** is separated. This query string splits into the attributes and their respective values. Thus, the attributes and their respective values are stored in the form of lists, dictionaries, etc. and further used in training and detection modules. Also, it contains class `DetectionSaver` which defines methods used for saving anomalous URLs and file credentials at the end of the detection.
+1. DATA PROCESSING : It contains class `DataPreprocessing` which defines methods used for the processing of the data. The individual URL is read from the dataset and a query string identified by leading character ***'?'*** is separated. This query string splits into the attributes and their respective values. Thus, the attributes and their respective values are stored in the form of lists, dictionaries, etc. and further used in training and detection modules. Also, it contains method used for saving anomalous URLs at the end of the detection.
 
 2. MODELS : It contains 4 classes of attribute models `AttributeLengthModel`, `AttributeCharachterDistributionModel`, `ArrtributeStructuralInference` and `AttributePresenceModel`
 
